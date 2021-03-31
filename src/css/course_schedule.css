@@ -1,0 +1,105 @@
+@import url("/css/main.css");
+
+#schedule td, #schedule th {
+    border: 1px solid #ddd;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#schedule td#class {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+#schedule td#break {
+  border-style: solid;
+  border-width: 0;
+  padding: 8px;
+  text-align: center;
+}
+#schedule td#break-last {
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: #ddd;
+  padding: 8px;
+  text-align: center;
+}
+#schedule th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+
+#schedule-add td, #schedule-add th {
+  border: 1px solid #ddd;
+  padding: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+#schedule-add td#class {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+#schedule-add td#class:hover {
+  cursor: pointer;
+  background-color: lightgreen;
+}
+#schedule-add td#break {
+  border-style: solid;
+  border-width: 0;
+  padding: 8px;
+  text-align: center;
+}
+#schedule-add td#break-last {
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: #ddd;
+  padding: 8px;
+  text-align: center;
+}
+#schedule-add th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+
+#schedule-update td, #schedule-update th {
+  border: 1px solid #ddd;
+  padding: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+#schedule-update td#class {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+#schedule-update td#class:hover {
+  cursor: pointer;
+  background-color: lightgreen;
+}
+#schedule-update td#break {
+  border-style: solid;
+  border-width: 0;
+  padding: 8px;
+  text-align: center;
+}
+#schedule-update td#break-last {
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: #ddd;
+  padding: 8px;
+  text-align: center;
+}
+#schedule-update th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: gray;
+  color: white;
+}

@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Kodchasan&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0; 
+  height: 100%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+#page-container {
+  min-width: 500px;
+  padding: 30px;
+  -webkit-box-shadow: 0px 0px 12px 1px rgba(87, 87, 87, 0.2);
+  box-shadow: 0px 0px 12px 1px rgba(87, 87, 87, 0.2);
+}

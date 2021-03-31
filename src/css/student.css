@@ -1,0 +1,30 @@
+@import url("/css/main.css");
+
+table {
+  width: 100%;
+}
+#student td, #student th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#student th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+
+.Active {
+  color: green;
+}
+.Inactive {
+  color: red;
+}
+.Drop {
+  color: orange;
+}
+.Graduate {
+  color: blue;
+}

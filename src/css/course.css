@@ -1,0 +1,16 @@
+@import url("/css/main.css");
+
+table {
+    width: 100%;
+}
+#course td, #course th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#course th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}

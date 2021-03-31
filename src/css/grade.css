@@ -1,0 +1,17 @@
+@import url("/css/main.css");
+
+#grade td, #grade th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#grade th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+th#point {
+    text-align: center;
+    padding: 0;
+}
